@@ -1,0 +1,7 @@
+{
+    "default": {
+        "paths": ["tests/features/"],
+        "require": ["src/tests/steps/*.js"],
+        "requireModule": ["tests/steps/*.js"]
+    }
+}

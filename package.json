@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
     "@playwright/test": "^1.42.1",
-    "@types/node": "^20.11.27"
+    "@types/node": "^20.11.27",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "package-name": "^0.1.0",
+    "package-test": "^0.0.0"
   }
 }
